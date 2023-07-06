@@ -9,13 +9,13 @@
 </head>
 <body>
     
-    @include('guest.header')
+    @include('guest.includes.header')
 
     <main>
         @yield('contents')
     </main>
 
-    @include('guest.footer')
+    @include('guest.includes.footer')
 
 </body>
 </html>
